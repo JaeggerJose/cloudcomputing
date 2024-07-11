@@ -1,0 +1,7 @@
+Sha256 of previous block: f55d515a383eb1d151db55f8c9242ab1c1aa2a44ae03cec15398556a2e8a9e43
+Next block: 22.txt
+a, b, 100
+a, c, 100
+angel, b, 100
+angel, b, 10
+angel, b, 100

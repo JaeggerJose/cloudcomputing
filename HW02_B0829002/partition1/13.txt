@@ -1,0 +1,7 @@
+Sha256 of previous block: 685cd026b7399c85fb8fc3afac071884749f9a7e62964f10ddb5a8e15292d1f7
+Next block: 14.txt
+angel, b0829060, 60
+angel, b0829061, 61
+angel, b0829062, 62
+angel, b0829063, 63
+angel, b0829064, 64

@@ -1,0 +1,7 @@
+Sha256 of previous block: 2bd6f0a61623346d7e55521b29315aef933bb6b3905de40cf1a78ba00762f6f5
+Next block: 24.txt
+angel, w, 100
+a, b, 5
+a, b, 5
+a, b, 5
+a, b, 10

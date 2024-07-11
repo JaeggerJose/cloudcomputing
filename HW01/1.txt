@@ -1,0 +1,8 @@
+Sha256 of previous block: 90fcb9db33fec8fb17dc1b550dfac021c385fcbb2bb249b92ff66668662653cc
+Nect block: 2.txt
+god, angle, 1000000
+angel, b082901, 1
+angel, b082902, 2
+angel, b082903, 3
+angel, b082904, 4
+angel, b082905, 5

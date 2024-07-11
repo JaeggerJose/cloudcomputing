@@ -1,0 +1,181 @@
+body, header, nav, .container {
+    padding: 20px;
+    text-align: center;
+}
+nav {
+    background-color: #fcfcfc;
+    padding: 10px 0;
+}
+nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 30px;
+    border-right: 1px solid #ccc;
+}
+nav a:last-child {
+    border-right: none;
+}
+.container {
+    position: relative;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    background-color: #fff;
+    border: 2px dashed #ccc;
+}
+#modelSelect {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    overflow-y: auto; /* Scroll bar */
+}
+.button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.button:hover {
+    background-color: #45a049;
+}
+.submit-button {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.hidden {
+    display: none;
+}
+#drop-area p {
+    min-height: 50px; /* Ensure the area looks good even if empty */
+}
+/* 添加表格樣式 */
+table {
+    width: 100%; /* 表格寬度為整個容器的寬度 */
+    border-collapse: collapse; /* 折疊邊框使其更緊密 */
+    text-align: center; /* 文字置中 */
+}
+th, td {
+    border: 5px solid black; /* 黑色邊框 */
+    padding: 8px; /* 增加內邊距 */
+}
+td {
+    width: 25%; /* 单元格宽度，保证填满整个表格 */
+}
+th {
+    background-color: #d80606; /* 標題背景色 */
+}
+button {
+    padding: 5px 10px; /* 按鈕內邊距 */
+    background-color: #4CAF50; /* 按鈕背景色 */
+    color: white; /* 文字顏色 */
+    border: none; /* 沒有邊框 */
+    border-radius: 5px; /* 圓角邊框 */
+    cursor: pointer; /* 鼠標樣式 */
+}
+button:hover {
+    background-color: #45a049; /* 鼠標懸停時的背景色 */
+}
+#modelSelect{
+    background-color: #005792;
+}
+
+.scrollTableContainer {
+    width: 100%; /* 容器宽度 */
+    height: 300px; /* 容器高度 */
+    overflow-y: auto; /* 添加垂直滚动条 */
+    border: 1px solid #ddd; /* 容器边框 */
+}
+
+body {
+    background-color: #000; /* 黑色背景 */
+    color: #FFF; /* 白色文字 */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    background-color: #333; /* 深灰色背景 */
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav {
+    background-color: #005792; /* 深蓝色背景 */
+    padding: 10px 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: #FFF; /* 白色文字 */
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+nav a:hover {
+    background-color: #007BBB; /* 鼠标悬停时更亮的蓝色 */
+}
+
+.container {
+    background-color: #121212; /* 接近黑色的背景 */
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: #D10024; /* 红色按钮 */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #FF1E42; /* 鼠标悬停时更亮的红色 */
+}
+
+#drop-area {
+    border: 2px dashed #555; /* 灰色虚线边框 */
+    padding: 10px;
+    text-align: center;
+    color: #FFF; /* 白色文字 */
+}
+
+.hidden {
+    display: none;
+}
+
+.submit-button {
+    float: right; /* 提交按钮靠右显示 */
+    margin-top: 10px;
+}
+
+/* Style for the select element */
+.model-select {
+    background-color: #405789; /* 蓝色背景 */
+    color: white; /* 白色文字 */
+    border: none; /* 无边框 */
+    padding: 8px;
+    border-radius: 4px;
+}
+
+/* Style to ensure options text is white even when selected */
+.model-select option {
+    background-color: #005792; /* 蓝色背景，同样适用于选项 */
+    color: white; /* 白色文字 */
+}
+
+/* 提高下拉菜单选项的可见性 */
+.model-select:hover {
+    cursor: pointer; /* 鼠标悬停时显示指针 */
+}
+
